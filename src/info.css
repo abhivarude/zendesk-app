@@ -1,0 +1,149 @@
+.popup{
+
+position: fixed;
+border: 1px solid red;
+padding: 30px;
+width: 50%;
+height: 50%;
+margin: 50px;
+
+}
+
+.calender
+{
+position:relative;
+    margin: 20px;
+    height: 800px;
+}
+button{
+
+    color: red;
+    height: 110px;
+    width: 90px;
+
+    background-color:white;
+color: rgb(71, 63, 63);
+}
+
+.react-calendar__month-view__weekdays{
+    border: 2px solid rgb(71, 63, 63);
+    padding-left: 50px;
+}
+
+
+.querybox{
+
+    margin: 50px;
+    padding: 100px;
+
+    border: 1px solid black;
+}
+
+#submitquery{
+    height: 40px;
+    margin-top:20px ;
+    margin-left: 500px;
+}
+
+#cancelquery{
+    height: 40px;
+    margin-top:20px ;
+
+}
+
+#textarea{
+
+    background-color: rgb(240 240 240);
+
+}
+#querytitle{
+    background-color: rgb(240 240 240);
+}
+
+.popup{
+
+
+  
+    background-color: #f6f6f6;
+   width: 800px;
+padding-bottom: 300px;
+    position: inherit;
+    border:1px solid black;
+}
+
+.navbarde{
+margin: 5px;
+    padding: 10px;
+    border: 1px solid green;
+    background-color: #89ee89;
+}
+
+#close{
+
+    width: 25px;
+    height: 25px;
+}
+
+.poput{
+
+    margin-top: -600px;
+    margin-left: 500px;
+    
+position:sticky;
+
+    
+}
+
+#classlink{
+    width: 100px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+#recording{
+    width: 100px;
+    height:50px;
+}
+
+
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+  }
+  
+  .vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+  }
+  
+  .vertical-menu a.active {
+    background-color: #04AA6D; /* Add a green color to the "active/current" link */
+    color: white;
+  }
+
+  #logout{
+      margin-top: 5px;
+  }
+
+  
+  .requirements
+  {
+      border: 1px solid black;
+      height: 700px;
+      margin: 20px;
+      padding: 30px;
+  }
+
+
+  #progress{
+
+    margin: 50px;
+    padding-left: 300px;
+  }
