@@ -30,7 +30,7 @@ if(!values.name)
   errors.name='*Name is Required';
 }
 
-else if(values.length<10)
+else if(values.name.length<10)
 {
   errors.name='*length should greter than 10 char';
 }
