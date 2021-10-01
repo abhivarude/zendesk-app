@@ -106,7 +106,7 @@ return errors;
 validate={validate}
 onSubmit={ async(values)=>{
 
-const data= await axios.post("https://zendesk-routes.herokuapp.com/login",{Name:values.name,Email:values.email,password:values.password})
+const data= await axios.post("https://zendesk-routes.herokuapp.com/signup",{Name:values.name,Email:values.email,password:values.password})
 
 
 if(data.status==201)
