@@ -118,12 +118,9 @@ if(data.status==201)
 if(data.status==200)
 {
  alert("signup sucsses");
- 
+  props.history.push("/login");
 }
-  { values.name="",values.
-  values.email="",
-  values.password="",
-  values.cpassword=""}
+ 
 }}
 
 >
