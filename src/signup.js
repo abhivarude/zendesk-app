@@ -120,10 +120,10 @@ if(data.status==200)
  alert("signup sucsses");
  
 }
-  { name:"",
-  email:"",
-  password:"",
-  cpassword:""}
+  { values.name="",values.
+  values.email="",
+  values.password="",
+  values.cpassword=""}
 }}
 
 >
